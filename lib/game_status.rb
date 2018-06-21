@@ -50,6 +50,7 @@ end
 
 def winner(board)
   winning_positions = won?(board)
-
-  return winning_positions[0]
+  first_winning_board_element = winning_positions[0]
+  binding.pry
+  return board[0]
 end
