@@ -32,7 +32,9 @@ end
 
 # is there an "O" or "X" at every position?
 def full?(board)
-  
+  board.all? do |position|
+    ["O", "X"].include?(position)
+  end
 end
 
 def draw?(board)
