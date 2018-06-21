@@ -15,6 +15,7 @@ WIN_COMBINATIONS = [
   [6, 4, 2],
 ]
 
+# return win combination or false
 def won?(board)
   # confirm that there are three of the same token at the indices defined in win combinations
   WIN_COMBINATIONS.detect do |combination|
