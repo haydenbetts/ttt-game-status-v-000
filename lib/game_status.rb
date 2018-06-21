@@ -42,7 +42,7 @@ def draw?(board)
   full?(board) && !won?(board)
 end
 
-#
+# returns true if the board has been won, is a draw, or is full
 def over?(board)
 end
 
