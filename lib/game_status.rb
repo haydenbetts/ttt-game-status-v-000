@@ -51,6 +51,5 @@ end
 def winner(board)
   if won?(board)
     first_winning_board_element = board[winning_positions[0]]
-
-
+  end
 end
