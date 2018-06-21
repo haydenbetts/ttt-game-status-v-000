@@ -39,9 +39,10 @@ end
 
 # is the board full and there is no winner
 def draw?(board)
-  full?(board) && !won?(board)  
+  full?(board) && !won?(board)
 end
 
+#
 def over?(board)
 end
 
