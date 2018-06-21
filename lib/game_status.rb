@@ -44,6 +44,7 @@ end
 
 # returns true if the board has been won, is a draw, or is full
 def over?(board)
+  won?(board) || draw?(board) || full?(board)
 end
 
 def winner?(board)
