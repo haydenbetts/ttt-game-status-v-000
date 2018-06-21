@@ -30,7 +30,9 @@ def won?(board)
   end
 end
 
+# is there an "O" or "X" at every position?
 def full?(board)
+  
 end
 
 def draw?(board)
